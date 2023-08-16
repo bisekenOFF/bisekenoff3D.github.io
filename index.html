@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D-paralax</title>
+    <link rel="stylesheet" href="sources/styles/style.css">
+    <script src="sources/js/app.js" defer></script>
+    <script src="sources/js/rain.js" defer></script>
+</head>
+
+<body>
+
+    <div class="logo" style="background-image: url(sources/images/logo.svg);"></div>
+
+    <section class="layers">
+        <div class="layers__container">
+            <div class="layers__items layer-1" style="background-image: url(sources/images/layer-1.jpg);"></div>
+
+            <div class="layers__items layer-2" style="background-image: url(sources/images/layer-2.png);"></div>
+
+            <div class="layers__items layer-3">
+                <div class="hero-content">
+                    <h1>Nature of the Ural <span>Forest</span></h1>
+                    <div class="hero-content__p">
+                        <p>Be sure to visit these revenge</p>
+                    </div>
+                    <button class="button-start">Visit the URAL</buttton>
+                </div>
+            </div>
+
+            <div class="layers__items layer-4">
+                <Canvas class="rain"></Canvas>
+            </div>
+
+            <div class="layers__items layer-5" style="background-image: url(sources/images/layer-5.png);"></div>
+
+            <div class="layers__items layer-6" style="background-image: url(sources/images/layer-6.png);"></div>
+        </div>
+    </section>
+</body>
+</html>
